@@ -19,7 +19,7 @@ Here's a heatmap of all our predictors:
 ![alt text](image.png)
 
 Model accuracy for predicting winners:
-
+```
                  Model  Accuracy
 0  Logistic Regression  0.834305
 5             AdaBoost  0.834305
@@ -28,9 +28,10 @@ Model accuracy for predicting winners:
 2        Random Forest  0.832223
 4   Bagging Classifier  0.829725
 1        Decision Tree  0.734804
+```
 
 Model accuracy for predicting finishing position:
-
+```
                 Model  Accuracy
 5             XGBoost  0.234804
 2   Gradient Boosting  0.230225
@@ -38,5 +39,6 @@ Model accuracy for predicting finishing position:
 3  Bagging Classifier  0.208160
 1       Random Forest  0.207744
 0       Decision Tree  0.182348
+```
 
 The full breakdown can be found in the notebook `greyhounds.ipynb`
